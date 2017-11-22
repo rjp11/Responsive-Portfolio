@@ -1,0 +1,310 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/grey_wash_wall.png)
+}
+
+/*Styling for the header on all pages*/
+header {
+	width: 100%;
+	height: 80px;
+	display: inline-block;
+	background: #225480;
+}
+
+header h1{
+	box-sizing: border-box;
+	width: 250px;
+	height: 80px;
+	float: left;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 36px;
+	padding-top: 20px;
+	margin-left: 125px;
+	text-align: center;
+	color: #225480;
+	background: #DEDEDE;
+	position: relative;
+	border-radius: 5px;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	width: 300px;
+	height: 40px;
+	margin: 30px 0px 20px 0px;
+	float: right;
+	position: absolute;
+	left: 785px;
+
+}
+
+header nav li {
+	float: right;
+	padding-left: 20px;
+	list-style-type: none;
+}
+
+header nav li a {
+	font-family: 'Maven Pro', sans-serif;
+	text-decoration: none;
+	color: #DEDEDE;
+	transition: color 0.25s;
+}
+
+header a:hover{
+	color: #d08142;
+}
+
+/*Styling for the main conent on all pages*/
+.wrapper {
+	width: 960px;
+	clear: left;
+	margin: 40px 0px 0px 125px;
+	padding-bottom: 80px;
+	min-height: 100%;
+}
+
+.main {
+	width: 650px;
+	float: left;
+	display: inline-block;
+	border: 1px #225480 solid;
+	background: #DEDEDE;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+
+.maincontent {
+	width: 600px;
+	font-family: 'Maven Pro', sans-serif;
+	margin-left: 25px;
+	/*position: relative;*/
+}
+
+.main .underline {
+	height: 3px;
+	width: 600px;
+	background: #d08142;
+	margin-bottom: 12px;
+}
+
+.main img {
+	float: left;
+	margin: 0px 15px 15px 0px;
+	border-radius: 5px;
+}
+
+.main h2{
+	padding: 20px 0px 10px 0px;
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
+	font-size: 36px;
+}
+
+.main p {
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+/*Styling for portfolio.html*/
+.portfolio img {
+	width: 280px;
+	z-index: 100;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+
+.portfolio h4{
+	background: #225480;
+	height: 40px;
+	width: 280px;
+	color: #DEDEDE;
+	font-size: 28px;
+	bottom: 0px;
+	z-index: 500;
+	text-align: center;
+	border: 1px solid #225480;
+	padding-top: 4px;
+}
+
+.hangman {
+	position: relative;
+	z-index: 100;
+}
+
+#hmtitle {
+	position: absolute;
+	left: 0px;
+	top: 165px;
+}
+
+.rpg {
+	position: relative;
+	right: -25px;
+	top: 0px;
+}
+
+#rpgtitle {
+	position: absolute;
+	right: 25px;
+	top: 165px;
+}
+
+.trivia {
+	clear: left;
+	position: relative;
+}
+
+#triviatitle {
+	position: absolute;
+	top: 165px;
+}
+
+.rutgers{
+	position: relative;
+	top: 0px;
+	right: -25px;
+}
+
+#rutgerstitle{
+	position: absolute;
+	top: 165px;
+	right: 25px;
+}
+
+.rps {
+	clear: left;
+	position: relative;
+}
+
+#rpstitle {
+	position: absolute;
+	top: 165px;
+}
+
+/*Styling for contact.html*/
+label {
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
+	font-size: 20px;
+}
+
+.input {
+	margin: 15px 0px;
+}
+
+input, textarea {
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
+	border: 1px solid #225480;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+	line-height: 150%;
+}
+
+form label{
+	margin-bottom: 5px;
+}
+
+.button {
+	background: #225480;
+	height: 40px;
+	width: 120px;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	color: #DEDEDE;
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+}
+
+.button:hover{
+	background: #d08142;
+}
+
+.padding{
+	height: 20px;
+}
+
+/*Styling for the sidebar for all pages*/
+.sidebar {
+	width: 270px;
+	float: left;
+	margin-left: 40px;
+	font-family: 'Maven Pro', sans-serif;
+	display: block;
+	border: 1px #225480 solid;
+	background: #DEDEDE;
+	border-radius: 5px;
+}
+
+.sidebar a{
+	text-decoration: none;
+}
+
+.sbcontent{
+	width: 210px;
+	margin-left: 30px;
+}
+
+.sidebar h3 {
+	text-align: center;
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
+	font-size: 24px;
+	height: 48px;
+	padding-top: 12px;
+}
+
+.sidebar .line {
+	width: 100%;
+	height: 3px;
+	background: #d08142;
+}
+
+.sbimg{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.sidebar img {
+	height: 60px;
+	width: 60px;
+	border-radius: 15%;
+	vertical-align: center;
+}
+
+#link{
+	margin-left: 10px;
+}
+
+#stack {
+	margin-left: 10px;
+}
+
+/*Styling for the footer on all pages*/
+footer {
+	float: left;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	background-color: #225480;
+	margin-top: 0px;
+	z-index: 200;
+	border-top: 5px solid #d08142;
+}
+
+footer p{
+	font-size: 12px;
+	font-family: 'Maven Pro', sans-serif;
+	padding: 34px 0px 34px 0px;
+	color: #DEDEDE;
+}
